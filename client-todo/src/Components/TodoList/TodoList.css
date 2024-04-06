@@ -1,0 +1,29 @@
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .todo-list li button {
+    float: right;
+    margin-left: 10px;
+    background-color: #ff4444;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .todo-list li button:hover {
+    background-color: #ee2222;
+  }
+  
+  
+  

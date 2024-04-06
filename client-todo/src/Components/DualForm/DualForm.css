@@ -1,0 +1,14 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .welcome-back, .auth-form {
+    flex: 1;
+  }
+  
+  /* Add additional styles for positioning, colors, form inputs, buttons etc. */
+  /* ... */
+  

@@ -1,0 +1,26 @@
+
+.todo-input {
+    margin-bottom: 20px;
+  }
+  
+  .todo-input input {
+    height: 20px;
+    line-height: 20px;
+    padding: 5px;
+    margin-right: 5px;
+    width: 200px;
+  }
+  
+  .todo-input button {
+    height: 34px;
+    background-color: #22ee22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .task-input button:hover {
+    background-color: #22cc22;
+  }

@@ -1,0 +1,38 @@
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* App.css */
+
+/* Styles for the authentication container */
+.auth-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+
+
+/* Styles for the dual form container */
+.dual-form-container {
+  display: flex;
+  width: 200%; /* Since there are two forms */
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Class that will be toggled to move the dual form container */
+.dual-form-container.move-left {
+  transform: translateX(-50%);
+}
+
+/* Additional styles for each panel */
+.welcome-panel, .form-panel {
+  width: 50%;
+  /* Additional styling */
+}
+
+/* ... Additional styling for buttons, form inputs, etc. */

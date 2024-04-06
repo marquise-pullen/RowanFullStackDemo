@@ -1,0 +1,4 @@
+/server-todo/node_modules
+/client-todo/node_modules
+/nginx/logs
+/mongodb/mongo-data
